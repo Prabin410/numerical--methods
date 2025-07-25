@@ -57,5 +57,5 @@ else:
     T= pd.DataFrame(T,columns=["iteration ","Max eigenvalue"]+ [f'X{i+1}' for i in range(n)]).to_string(index=False)
     print(T)
 
-    print(f"The least eigen value is {1/max_eigen_value} in {itr} iteration")
+    print(f"The least eigen value is {1/max_eigen_value} in {itr} iteratio")
     print('The corresponding eigen vector is\n',np.matrix(X))
